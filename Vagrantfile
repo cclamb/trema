@@ -82,6 +82,10 @@ Vagrant::Config.run do |config|
     chef.add_recipe "proxy"
     chef.add_recipe "apt"
     chef.add_recipe "git"
+    # gotta get all this stuff
+    # apt-get install gcc make ruby rubygems ruby-dev libpcap-dev libsqlite3-dev curl
+    # gem install bundler
+
     # chef.add_recipe "nginx"
     # chef.add_recipe "ruby"
     # chef.add_recipe "ruby::symlinks"
